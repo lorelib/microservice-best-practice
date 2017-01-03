@@ -1,5 +1,5 @@
 server:
-  port: 8011
+  port: 8010
 eureka:
   instance:
     hostname: discovery
@@ -7,4 +7,4 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://discovery:8011/eureka/
+      defaultZone: http://discovery:8010/eureka/

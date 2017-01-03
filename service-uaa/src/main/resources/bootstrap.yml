@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: service-uaa
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        serviceId: config-center
+      profile: dev
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    platform: h2
+    schema: classpath:/sql/h2-schema.sql
+    data: classpath:/sql/h2-data.sql
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery:8010/eureka/
