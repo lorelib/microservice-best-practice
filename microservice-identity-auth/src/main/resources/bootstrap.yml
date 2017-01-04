@@ -1,6 +1,6 @@
 spring:
   application:
-    name: microservice-uaa
+    name: microservice-identity-auth
   cloud:
     config:
       discovery:

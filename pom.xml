@@ -19,7 +19,7 @@
     </developers>
 
     <modules>
-        <module>microservice-uaa</module>
+        <module>microservice-identity-auth</module>
         <module>commons</module>
         <module>infrastructure</module>
         <module>microservice-organization</module>
