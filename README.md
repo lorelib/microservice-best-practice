@@ -23,20 +23,22 @@
 ## 配置中心
     java -jar config-center-1.0.jar
     访问：
-    http://localhost:8020/service-uaa-dev.properties
-    http://localhost:8020/service-uaa/dev
+    http://localhost:8020/microservice-uaa-dev.properties
+    http://localhost:8020/microservice-uaa/dev
 
 ## 启动user服务
     java -jar microservice-user-1.0.jar
     访问：
         http://localhost:8030/user/1
     
-## 启动consumer服务消费者
-
+## 启动organization服务
+    java -jar microservice-organization-1.0.jar
+    访问：
+        http://localhost:8050/user/1
     
 ## 启动spring-boot-admin
     
-
+    http://localhost:8040/
     
 ## API GATEWAY
 
