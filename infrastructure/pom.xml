@@ -15,5 +15,6 @@
     <modules>
         <module>services-discovery</module>
         <module>config-center</module>
+        <module>spring-boot-admin</module>
     </modules>
 </project>

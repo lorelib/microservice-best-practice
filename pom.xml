@@ -22,6 +22,7 @@
         <module>microservice-uaa</module>
         <module>commons</module>
         <module>infrastructure</module>
+        <module>microservice-organization</module>
     </modules>
 
     <repositories>

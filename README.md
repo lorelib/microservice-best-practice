@@ -26,15 +26,16 @@
     http://localhost:8020/service-uaa-dev.properties
     http://localhost:8020/service-uaa/dev
 
-## 启动provider-user服务提供者
-    java -jar service-user-1.0.jar
+## 启动user服务
+    java -jar microservice-user-1.0.jar
     访问：
         http://localhost:8030/user/1
     
 ## 启动consumer服务消费者
 
     
-## 启动监控
+## 启动spring-boot-admin
+    
 
     
 ## API GATEWAY
