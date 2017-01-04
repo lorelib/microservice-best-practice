@@ -23,8 +23,8 @@
 ## 配置中心
     java -jar config-center-1.0.jar
     访问：
-    http://localhost:8020/microservice-uaa-dev.properties
-    http://localhost:8020/microservice-uaa/dev
+    http://localhost:8020/microservice-identity-auth-dev.properties
+    http://localhost:8020/microservice-identity-auth/dev
 
 ## 启动user服务
     java -jar microservice-user-1.0.jar
