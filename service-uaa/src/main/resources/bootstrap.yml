@@ -14,8 +14,8 @@ spring:
       ddl-auto: none
   datasource:
     platform: h2
-    schema: classpath:/sql/h2-schema.sql
-    data: classpath:/sql/h2-data.sql
+    schema: classpath:sql/h2-schema.sql
+    data: classpath:sql/h2-data.sql
 eureka:
   client:
     serviceUrl:
