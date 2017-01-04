@@ -9,10 +9,20 @@
     <version>1.0</version>
     <packaging>pom</packaging>
 
+    <developers>
+        <developer>
+            <name>listening</name>
+            <email>893979653@qq.com</email>
+            <url>暂无</url>
+            <roles></roles>
+        </developer>
+    </developers>
+
     <modules>
         <module>services-discovery</module>
         <module>config-center</module>
-        <module>service-uaa</module>
+        <module>microservice-uaa</module>
+        <module>commons</module>
     </modules>
 
     <repositories>
