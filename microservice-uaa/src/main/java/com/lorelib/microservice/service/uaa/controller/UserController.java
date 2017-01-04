@@ -1,5 +1,6 @@
 package com.lorelib.microservice.service.uaa.controller;
 
+import com.lorelib.microservice.commons.api.AbstractController;
 import com.lorelib.microservice.service.uaa.dao.UserRepository;
 import com.lorelib.microservice.service.uaa.entity.User;
 import org.slf4j.Logger;
@@ -15,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/user")
-public class UserController {
+public class UserController extends AbstractController {
     private final static Logger LOGGER = LoggerFactory.getLogger(UserController.class);
 
     @Autowired

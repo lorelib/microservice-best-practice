@@ -1,12 +1,14 @@
 package com.lorelib.microservice.service.uaa.entity;
 
+import com.lorelib.microservice.commons.api.DomainObject;
+
 import javax.persistence.*;
 
 /**
  * Created by listening on 2017/1/3.
  */
 @Entity
-public class User {
+public class User implements DomainObject {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
