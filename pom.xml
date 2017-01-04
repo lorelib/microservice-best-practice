@@ -19,10 +19,9 @@
     </developers>
 
     <modules>
-        <module>services-discovery</module>
-        <module>config-center</module>
         <module>microservice-uaa</module>
         <module>commons</module>
+        <module>infrastructure</module>
     </modules>
 
     <repositories>
