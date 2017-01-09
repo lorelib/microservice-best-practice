@@ -2,7 +2,7 @@ server:
   port: 8020
 spring:
   application:
-    name: config-center
+    name: config-server
   profiles:
     active: native
   cloud:

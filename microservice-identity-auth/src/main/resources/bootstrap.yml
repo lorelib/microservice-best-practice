@@ -5,7 +5,7 @@ spring:
     config:
       discovery:
         enabled: true
-        serviceId: config-center
+        serviceId: config-server
       profile: dev
   jpa:
     generate-ddl: false

@@ -19,10 +19,10 @@
     </developers>
 
     <modules>
-        <module>microservice-identity-auth</module>
         <module>commons</module>
         <module>infrastructure</module>
         <module>microservice-organization</module>
+        <module>microservice-identity-auth</module>
     </modules>
 
     <repositories>

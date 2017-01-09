@@ -21,7 +21,7 @@
         http://discovery2:8012
         
 ## 配置中心
-    java -jar config-center-1.0.jar
+    java -jar config-server-1.0.jar
     访问：
     http://localhost:8020/microservice-identity-auth-dev.properties
     http://localhost:8020/microservice-identity-auth/dev
