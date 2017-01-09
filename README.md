@@ -42,6 +42,11 @@
     
 ## API GATEWAY
 
+## 日志
+
+    spring-cloud-config暂不支持在clent端yml文件通过占位符${}读取config-server中配置的属性,
+    折中的方式是通过设置系统属性LOG_HOME来配置文件存放目录
+
 
 ***注意：当服务发现是 Eureka 及 Consul 时，Config Server支持与之联合使用；如果是 Zookeeper 做服务发现，目前不支持与之联合使用。***
     
