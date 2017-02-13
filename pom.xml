@@ -21,8 +21,8 @@
     <modules>
         <module>commons</module>
         <module>infrastructure</module>
-        <module>microservice-organization</module>
-        <module>microservice-identity-auth</module>
+        <module>microservice-uaa</module>
+        <module>microservice-blog</module>
     </modules>
 
     <repositories>
