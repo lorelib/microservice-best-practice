@@ -1,0 +1,18 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: uaa
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    platform: h2
+    schema: classpath:schema.sql
+    data: classpath:data.sql
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery:8010/eureka/
